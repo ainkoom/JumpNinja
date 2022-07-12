@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class PopUpMenu : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public GameObject popUpBox;
+    public Animator animator;
+   // public TMP_Text popUpText;
+
+    public void popUP(string text)
     {
-        
+        popUpBox.SetActive(true);
+        //popUpText.text = text;
+        animator.SetTrigger("pop");
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

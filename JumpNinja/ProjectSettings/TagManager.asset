@@ -7,6 +7,9 @@ TagManager:
   - EnemyBody
   - EnemyTop
   - Gold
+  - ExtraLife
+  - Life1
+  - Tip
   layers:
   - Default
   - TransparentFX
